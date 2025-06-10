@@ -300,6 +300,8 @@ A linguagem **SQL (Structured Query Language)** é a linguagem padrão para inte
 
 ## The Relational Model in Databases
 
+![M.Relational DIO](src/mr.png)
+
 The Relational Model is one of the most widely used models for organizing and managing data in databases. It was formally introduced in 1970 by Edgar F. Codd.
 
 ## Key Characteristics (English)
