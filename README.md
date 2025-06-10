@@ -203,6 +203,8 @@ Databases are the backbone of almost all modern software applications:
 # O Que é um Sistema de Gerenciamento de Banco de Dados (SGBD)?
 ## What is a Database Management System (DBMS)?
 
+
+![SGBDS DIO](src/sgbd.png)
 ---
 
 ## Em Português
