@@ -355,3 +355,70 @@ Ao final desse fluxo, os dados solicitados são recuperados ou as modificações
 5.  **Metadata & Schema:** The execution and management operations fundamentally rely on the database's "Metadata & Schema." The Schema defines the logical structure of the database (tables, columns, data types, keys, constraints). Metadata is "data about data" and includes information about the database structure, indexes, data distribution statistics, and permissions. The DBMS constantly consults this metadata to optimize and validate operations.
 
 At the end of this flow, the requested data is retrieved or modifications are applied, and the result is returned to the application or user.
+
+
+# Bancos de Dados Mais Utilizados no Mercado
+
+O cenário de bancos de dados é vasto e diversificado, com diferentes sistemas sendo escolhidos com base em suas características, modelos de dados e casos de uso. Abaixo, destacam-se alguns dos sistemas de gerenciamento de banco de dados (SGBDs) mais proeminentes e amplamente adotados, tanto relacionais quanto NoSQL.
+
+## Em Português
+
+### Principais SGBDs Relacionais e NoSQL
+
+A preferência do mercado por um SGBD específico geralmente reflete a demanda por confiabilidade, desempenho, escalabilidade e o modelo de dados mais adequado para a aplicação.
+
+1.  **Oracle:** Um dos SGBDs relacionais mais antigos e robustos, amplamente utilizado em ambientes corporativos de grande porte que exigem alta disponibilidade, segurança e recursos avançados para processamento de transações e data warehousing. Sua linguagem de procedimento é PL/SQL.
+
+2.  **MySQL:** Um SGBD relacional de código aberto, extremamente popular para aplicações web, sistemas de médio porte e como backend para muitos sites e plataformas online devido à sua velocidade, confiabilidade e facilidade de uso.
+
+3.  **Microsoft SQL Server:** Um SGBD relacional da Microsoft, predominante em ambientes Windows e amplamente utilizado para aplicações corporativas, inteligência de negócios e sistemas de gerenciamento de dados. Sua linguagem de procedimento é T-SQL.
+
+4.  **PostgreSQL:** Um SGBD relacional de código aberto avançado, conhecido por sua robustez, conformidade com padrões SQL e suporte a recursos complexos e tipos de dados estendidos, sendo uma forte alternativa a bancos de dados comerciais.
+
+5.  **MongoDB:** Um dos SGBDs NoSQL mais populares, baseado no modelo de documentos (JSON-like BSON). É valorizado por sua flexibilidade de esquema, escalabilidade horizontal e desempenho em aplicações que necessitam de agilidade no desenvolvimento e manipulação de grandes volumes de dados não estruturados ou semiestruturados.
+
+6.  **Redis:** Um armazenamento de estrutura de dados em memória de código aberto, usado como banco de dados, cache e *message broker*. É notavelmente rápido e versátil, suportando estruturas como strings, hashes, listas, conjuntos e filas.
+
+7.  **Elasticsearch:** Um mecanismo de busca e análise distribuído, frequentemente utilizado para indexação e busca de grandes volumes de dados textuais, logs e dados de eventos, com forte capacidade de análise em tempo real.
+
+8.  **Microsoft Access:** Um sistema de gerenciamento de banco de dados desktop, ideal para pequenas aplicações e usuários não técnicos, que combina um SGBD relacional com uma interface gráfica de usuário e ferramentas de desenvolvimento de software.
+
+9.  **Cassandra:** Um SGBD NoSQL de código aberto, do tipo coluna larga distribuída. Projetado para lidar com grandes quantidades de dados em muitos servidores, oferecendo alta disponibilidade sem um único ponto de falha. É ideal para sistemas que exigem alta escalabilidade e disponibilidade.
+
+10. **MariaDB:** Um fork de código aberto do MySQL, que mantém alta compatibilidade com o MySQL e oferece melhorias de desempenho, novos recursos e maior foco na comunidade e na natureza de código aberto.
+
+Para classificações e informações mais detalhadas sobre o uso de SGBDs, pode-se consultar: [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
+
+---
+
+## In English
+
+### Most Used Databases in the Market
+
+The database landscape is vast and diverse, with different systems being chosen based on their characteristics, data models, and use cases. Below, we highlight some of the most prominent and widely adopted database management systems (DBMS), including both relational and NoSQL types.
+
+### Leading Relational and NoSQL DBMSs
+
+Market preference for a specific DBMS generally reflects the demand for reliability, performance, scalability, and the most suitable data model for the application.
+
+1.  **Oracle:** One of the oldest and most robust relational DBMSs, widely used in large enterprise environments that require high availability, security, and advanced features for transaction processing and data warehousing. Its procedural language is PL/SQL.
+
+2.  **MySQL:** An open-source relational DBMS, extremely popular for web applications, medium-sized systems, and as a backend for many websites and online platforms due to its speed, reliability, and ease of use.
+
+3.  **Microsoft SQL Server:** A relational DBMS from Microsoft, prevalent in Windows environments and widely used for enterprise applications, business intelligence, and data management systems. Its procedural language is T-SQL.
+
+4.  **PostgreSQL:** An advanced open-source relational DBMS, known for its robustness, SQL standard compliance, and support for complex features and extended data types, making it a strong alternative to commercial databases.
+
+5.  **MongoDB:** One of the most popular NoSQL DBMSs, based on the document model (JSON-like BSON). It is valued for its schema flexibility, horizontal scalability, and performance in applications that require agility in development and handling large volumes of unstructured or semi-structured data.
+
+6.  **Redis:** An open-source, in-memory data structure store, used as a database, cache, and message broker. It is remarkably fast and versatile, supporting structures like strings, hashes, lists, sets, and streams.
+
+7.  **Elasticsearch:** A distributed search and analytics engine, frequently used for indexing and searching large volumes of textual data, logs, and event data, with strong real-time analytical capabilities.
+
+8.  **Microsoft Access:** A desktop database management system, ideal for small applications and non-technical users, combining a relational DBMS with a graphical user interface and software development tools.
+
+9.  **Cassandra:** An open-source NoSQL DBMS, of the distributed wide-column type. Designed to handle large amounts of data across many servers, offering high availability without a single point of failure. It is ideal for systems requiring high scalability and availability.
+
+10. **MariaDB:** An open-source fork of MySQL, which maintains high compatibility with MySQL and offers performance improvements, new features, and a stronger focus on community and open-source nature.
+
+For more detailed rankings and information on DBMS usage, you can consult: [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
