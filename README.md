@@ -278,3 +278,41 @@ There are various types of DBMSs, each optimized for different data models and u
 * **Hybrid/Multi-model DBMS:** Support multiple data models within a single system.
 
 In essence, a DBMS is the **software layer that orchestrates all data operations**, making the manipulation of complex information accessible and reliable for applications and users.
+
+
+
+# O Modelo Relacional em Bancos de Dados
+
+O Modelo Relacional é um dos modelos mais amplamente utilizados para a organização e gerenciamento de dados em bancos de dados. Ele foi formalmente introduzido em 1970 por Edgar F. Codd.
+
+## Características Principais (Português)
+
+O sucesso e a durabilidade do modelo relacional são atribuídos a um conjunto de características fundamentais:
+
+* **Álgebra Relacional:** É a base teórica e matemática do modelo relacional, fornecendo um conjunto de operações (como seleção, projeção, junção, união, etc.) que permitem manipular os dados de forma precisa e eficiente. A álgebra relacional serve como fundamento para as linguagens de consulta de bancos de dados.
+* **Relações:** Os dados são organizados em estruturas bidimensionais chamadas "relações", que são comumente conhecidas como **tabelas**. Cada tabela consiste em linhas (registros ou tuplas) e colunas (atributos ou campos). As relações entre diferentes tabelas são estabelecidas através de chaves (primárias e estrangeiras), o que permite a integridade e a consistência dos dados.
+* **TAD para Armazenamento (Tipos Abstratos de Dados):** O modelo frequentemente lida com a abstração dos dados através de Tipos Abstratos de Dados, o que significa que o usuário interage com os dados em um nível lógico, sem a necessidade de conhecer os detalhes de sua implementação física ou armazenamento. Isso promove a independência de dados.
+* **Transparência:** O modelo relacional oferece um alto grau de transparência para o usuário. Isso significa que o usuário não precisa se preocupar com os detalhes de como os dados são fisicamente armazenados ou otimizados. As consultas são focadas no que deve ser recuperado, e não em como deve ser feito.
+
+### SQL e o Modelo Relacional
+
+A linguagem **SQL (Structured Query Language)** é a linguagem padrão para interagir com bancos de dados relacionais. Ela permite definir a estrutura do banco de dados (DDL), manipular os dados (DML), controlar o acesso (DCL) e, principalmente, realizar consultas complexas para extrair informações. A popularidade e a robustez do SQL estão diretamente ligadas à ampla adoção do modelo relacional.
+
+## The Relational Model in Databases
+
+The Relational Model is one of the most widely used models for organizing and managing data in databases. It was formally introduced in 1970 by Edgar F. Codd.
+
+## Key Characteristics (English)
+
+The success and longevity of the relational model are attributed to a set of fundamental characteristics:
+
+* **Relational Algebra:** This is the theoretical and mathematical foundation of the relational model, providing a set of operations (such as selection, projection, join, union, etc.) that allow for precise and efficient manipulation of data. Relational algebra serves as the basis for database query languages.
+* **Relations:** Data is organized into two-dimensional structures called "relations," which are commonly known as **tables**. Each table consists of rows (records or tuples) and columns (attributes or fields). Relationships between different tables are established through keys (primary and foreign keys), which ensures data integrity and consistency.
+* **ADT for Storage (Abstract Data Types):** The model often deals with data abstraction through Abstract Data Types, meaning the user interacts with data at a logical level without needing to know the details of its physical implementation or storage. This promotes data independence.
+* **Transparency:** The relational model offers a high degree of transparency to the user. This means the user does not need to worry about the details of how data is physically stored or optimized. Queries focus on *what* needs to be retrieved, rather than *how* it should be done.
+
+### SQL and the Relational Model
+
+The **SQL (Structured Query Language)** is the standard language for interacting with relational databases. It allows for defining the database structure (DDL), manipulating data (DML), controlling access (DCL), and, crucially, performing complex queries to extract information. The popularity and robustness of SQL are directly linked to the widespread adoption of the relational model.
+
+---
